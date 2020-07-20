@@ -28,12 +28,12 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", from: "1.9.0"),
+        .package(url: "https://github.com/KituraKommunity/LoggerAPI.git", from: "1.9.0"),
         .package(url: "https://github.com/apple/swift-log.git", Version("0.0.0") ..< Version("2.0.0")),
-        .package(url: "https://github.com/IBM-Swift/Kitura-net.git", from: "2.4.0"),
-        .package(url: "https://github.com/IBM-Swift/Kitura-TemplateEngine.git", from: "2.0.0"),
-        .package(url: "https://github.com/IBM-Swift/KituraContracts.git", from: "1.0.0"),
-        .package(url: "https://github.com/IBM-Swift/TypeDecoder.git", from: "1.3.0"),
+        .package(url: "https://github.com/KituraKommunity/Kitura-net.git", from: "2.4.0"),
+        .package(url: "https://github.com/KituraKommunity/Kitura-TemplateEngine.git", from: "2.0.0"),
+        .package(url: "https://github.com/KituraKommunity/KituraContracts.git", from: "1.0.0"),
+        .package(url: "https://github.com/KituraKommunity/TypeDecoder.git", from: "1.3.0"),
     ],
     targets: [
         .target(
